@@ -1,0 +1,143 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  # ─── ABOUT & PROFILE ───────────────────────────────────────────────
+  - name: "about"
+    label: "About & Profile"
+    files:
+      - label: "Profile"
+        name: "profile"
+        file: "content/about.json"
+        format: json
+        fields:
+          - { label: "First Name",    name: "name_first",   widget: "string" }
+          - { label: "Last Name",     name: "name_last",    widget: "string" }
+          - { label: "Tagline",       name: "tagline",      widget: "string", hint: "Short line under your name on the hero" }
+          - { label: "Hero Bio",      name: "bio",          widget: "text",   hint: "The paragraph on the hero. You can use <strong> and <em> tags." }
+          - { label: "Email Address", name: "email",        widget: "string" }
+          - { label: "LinkedIn URL",  name: "linkedin",     widget: "string" }
+          - { label: "Notion URL",    name: "notion",       widget: "string" }
+          - { label: "Portrait Photo URL", name: "portrait_url", widget: "string", hint: "Paste a direct image URL or upload below" }
+          - { label: "Portrait Alt Text", name: "portrait_alt", widget: "string" }
+
+          - label: "Hero Stats"
+            name: "stats"
+            widget: "list"
+            hint: "The three numbers shown under your bio"
+            fields:
+              - { label: "Value", name: "value", widget: "string", hint: "e.g. 4+" }
+              - { label: "Label", name: "label", widget: "string", hint: "e.g. Years Experience" }
+
+          - label: "About Section Paragraphs"
+            name: "about_paragraphs"
+            widget: "list"
+            hint: "Each item is one paragraph in the About section. You can use <strong> and <em> tags."
+            field: { label: "Paragraph", name: "text", widget: "text" }
+
+          - label: "Experience"
+            name: "experience"
+            widget: "list"
+            hint: "Your work history, newest first"
+            fields:
+              - { label: "Period",      name: "period",      widget: "string",  hint: "e.g. Nov 2023 — Now" }
+              - { label: "Role",        name: "role",        widget: "string" }
+              - { label: "Company",     name: "company",     widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+
+          - label: "Skills / Tools"
+            name: "skills"
+            widget: "list"
+            hint: "Shown as tags in the About sidebar"
+            field: { label: "Skill", name: "skill", widget: "string" }
+
+  # ─── WORK / CASE STUDIES ───────────────────────────────────────────
+  - name: "work"
+    label: "Work / Case Studies"
+    files:
+      - label: "Case Studies"
+        name: "cases"
+        file: "content/work.json"
+        format: json
+        fields:
+          - label: "Featured Case Study"
+            name: "featured"
+            widget: "object"
+            fields:
+              - { label: "Badge Text",  name: "badge",    widget: "string",  default: "Featured" }
+              - { label: "Category",    name: "category", widget: "string",  hint: "e.g. SaaS · Shopify · Brand Voice" }
+              - { label: "Title",       name: "title",    widget: "string" }
+              - { label: "Excerpt",     name: "excerpt",  widget: "text" }
+              - { label: "Image URL",   name: "image",    widget: "string" }
+              - label: "Meta Row (3 items)"
+                name: "meta"
+                widget: "list"
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "Value", name: "value", widget: "string" }
+              - label: "Modal Content"
+                name: "modal"
+                widget: "object"
+                fields:
+                  - { label: "Context",   name: "context",   widget: "text", hint: "Background / what the product is" }
+                  - { label: "Problem",   name: "problem",   widget: "text" }
+                  - { label: "Approach",  name: "approach",  widget: "text" }
+                  - { label: "Delivered", name: "delivered", widget: "text", hint: "What you actually produced" }
+                  - { label: "Impact",    name: "impact",    widget: "text" }
+                  - { label: "Notion URL", name: "notion_url", widget: "string", required: false }
+
+          - label: "Case Study Grid (3 cards)"
+            name: "cases"
+            widget: "list"
+            hint: "The three cards shown below the featured case"
+            fields:
+              - { label: "Category",    name: "category",    widget: "string" }
+              - { label: "Title",       name: "title",       widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Image URL",   name: "image",       widget: "string" }
+              - label: "Tags"
+                name: "tags"
+                widget: "list"
+                field: { label: "Tag", name: "tag", widget: "string" }
+              - label: "Modal Content"
+                name: "modal"
+                widget: "object"
+                fields:
+                  - { label: "Context",   name: "context",   widget: "text" }
+                  - { label: "Problem",   name: "problem",   widget: "text" }
+                  - { label: "Approach",  name: "approach",  widget: "text" }
+                  - { label: "Delivered", name: "delivered", widget: "text" }
+                  - { label: "Before (copy example)", name: "before", widget: "string", required: false }
+                  - { label: "After (copy example)",  name: "after",  widget: "string", required: false }
+                  - { label: "Impact",    name: "impact",    widget: "text" }
+                  - { label: "Notion URL", name: "notion_url", widget: "string", required: false }
+
+          - { label: "More Work Label",  name: "more_label", widget: "string", hint: "Text listing additional projects" }
+          - { label: "Full Notion Portfolio URL", name: "notion_url", widget: "string" }
+
+  # ─── BLOG POSTS ────────────────────────────────────────────────────
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "content/blog"
+    create: true
+    format: json
+    slug: "{{slug}}"
+    identifier_field: "title"
+    fields:
+      - { label: "Title",     name: "title",     widget: "string" }
+      - { label: "Tag",       name: "tag",        widget: "string",  hint: "e.g. UX Writing, Content Strategy, Tone of Voice" }
+      - { label: "Read Time", name: "read_time",  widget: "string",  hint: "e.g. 8 min read" }
+      - { label: "Excerpt",   name: "excerpt",    widget: "text",    hint: "2-3 sentence preview shown on the card" }
+      - label: "Status"
+        name: "status"
+        widget: "select"
+        options:
+          - { label: "Coming Soon", value: "coming_soon" }
+          - { label: "Published",   value: "published" }
+        default: "coming_soon"
+      - { label: "Cover Image URL", name: "image", widget: "string" }
+      - { label: "Article Body",    name: "body",  widget: "markdown", required: false, hint: "Write your article here. Appears when status is Published." }

@@ -1,0 +1,42 @@
+{
+  "name_first": "Linh",
+  "name_last": "Tran Thuy",
+  "tagline": "Words that guide. Experiences that stay.",
+  "bio": "Based in <strong>Ho Chi Minh City, Vietnam</strong>, I turn complex product moments into language that feels obvious in hindsight. Currently shaping the voice of <strong>TrueProfit</strong> and <strong>Ali Reviews</strong> at FireGroup Technology — Shopify apps used by thousands of merchants worldwide. Before that, I built content strategy for <strong>HelloBacsi</strong>, Vietnam's largest health platform. I believe every word in a product is a design decision.",
+  "email": "your@email.com",
+  "linkedin": "https://www.linkedin.com/in/linh-thuy-tran1001/",
+  "notion": "https://www.notion.so/Linh-Tran-Thuy-UX-Writer-Content-Strategist-11ac91c6c2d4807e89ecc05d289e62df",
+  "portrait_url": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=640&q=80&auto=format",
+  "portrait_alt": "Linh Tran Thuy portrait",
+  "stats": [
+    { "value": "4+", "label": "Years Experience" },
+    { "value": "8+", "label": "Case Studies" },
+    { "value": "3",  "label": "Industries" }
+  ],
+  "about_paragraphs": [
+    "I came to UX writing through a love of <strong>both language and logic</strong>. Early in my career in content marketing, I discovered that the most frustrating digital experiences weren't broken interfaces — they were unclear ones. Words were the missing layer.",
+    "I've since worked across <strong>SaaS, health tech, and e-commerce</strong> — most recently as UX Writer at FireGroup Technology, where I shape the voice of <strong>TrueProfit</strong> and <strong>Ali Reviews</strong>, two Shopify apps used by merchants worldwide. Before that, I wrote content strategy for <strong>HelloBacsi</strong>, Vietnam's largest health information platform, making complex medical knowledge accessible to everyday readers.",
+    "My work spans microcopy, tone &amp; voice systems, information architecture, error messages, and design sprints. I'm obsessed with the moment when someone reads a line of copy and thinks, <em>\"Finally, someone gets it.\"</em>"
+  ],
+  "experience": [
+    {
+      "period": "Nov 2023 — Now",
+      "role": "UX Writer",
+      "company": "FireGroup Technology",
+      "description": "Writing product copy across two Shopify apps — TrueProfit (profit analytics) and Ali Reviews (review management). Work covers microcopy, feature UX writing, error messages, tone & voice guidelines, information architecture, and design sprint facilitation across the full product lifecycle."
+    },
+    {
+      "period": "Apr 2022 — Nov 2023",
+      "role": "Web Content Writer",
+      "company": "HelloBacsi · Ho Chi Minh City",
+      "description": "Content strategy and writing for HelloBacsi, Vietnam's largest health information platform. Created medically accurate, plain-language content that made healthcare knowledge accessible to millions of Vietnamese readers."
+    },
+    {
+      "period": "Mar 2021 — Oct 2021",
+      "role": "Content Marketing",
+      "company": "Grace Skincare Clinic · Ho Chi Minh City",
+      "description": "Developed content strategy and copywriting for digital channels at a skincare clinic — the foundation of my understanding of audience-first writing and the relationship between content and customer trust."
+    }
+  ],
+  "skills": ["Figma", "Notion", "Confluence", "Jira", "ContentSquare", "Hotjar", "Google Analytics", "Miro", "ChatGPT", "Grammarly"]
+}

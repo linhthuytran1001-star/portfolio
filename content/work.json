@@ -1,0 +1,77 @@
+{
+  "featured": {
+    "badge": "Featured",
+    "category": "SaaS · Shopify · Brand Voice",
+    "title": "TrueProfit: Building a Tone & Voice System",
+    "excerpt": "TrueProfit speaks to stressed Shopify merchants who need clarity, not more noise. I defined the brand's entire voice framework — principles, do's & don'ts, and a pattern library that keeps every screen feeling like the same person wrote it.",
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80&auto=format",
+    "meta": [
+      { "label": "Company",  "value": "FireGroup Technology" },
+      { "label": "Type",     "value": "Tone & Voice" },
+      { "label": "Scope",    "value": "Full product" }
+    ],
+    "modal": {
+      "context": "TrueProfit is a profit analytics app for Shopify merchants — a tool people open when they need to understand exactly where their money is going. The users are business owners under pressure: they're stressed, they're fast, and they don't have time to decode jargon or be spoken to like a product manual. As the UX Writer at FireGroup Technology, I was responsible for defining how TrueProfit speaks across the entire product — every label, tooltip, empty state, confirmation message, and error.",
+      "problem": "The product had grown fast. Different features had been written at different times, by different people. The result was a product that didn't sound like itself. Some screens were warm and conversational. Others were cold and technical. Merchants felt like they were moving between different apps.",
+      "approach": "I started with a content audit — reading every UI string in the product and tagging it by tone, formality, and clarity. Then I interviewed the team: What do we believe? Who are we writing for? What should a merchant feel after reading this screen? From that research, I defined TrueProfit's voice as clear, direct, and quietly confident — like a sharp financial advisor who gets to the point and never makes you feel small for asking. I documented this across four dimensions: word choice, sentence structure, tone by context (success / warning / error / empty states), and a do/don't pattern library.",
+      "delivered": "A living Tone & Voice guideline document used by the entire product team — covering principles, personality traits, writing rules, and annotated before/after examples for the most common UI patterns. New features are now written against this system from day one.",
+      "impact": "The product now reads as a single, coherent voice from the first screen to the last. The tone guide became the onboarding document for any new team member touching copy — designers, PMs, and engineers included.",
+      "notion_url": "https://www.notion.so/TrueProfit-tone-and-voice-279c91c6c2d48063ad52de23ff718338"
+    }
+  },
+  "cases": [
+    {
+      "category": "SaaS · IA · Content Strategy",
+      "title": "Helpdesk Website Revamp",
+      "description": "Restructuring the information architecture of a support site so merchants find answers before they open a ticket — reducing support load through better content structure.",
+      "image": "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=600&q=80&auto=format",
+      "tags": ["Information Architecture", "Navigation", "Content Audit"],
+      "modal": {
+        "context": "The helpdesk site for TrueProfit had grown organically — articles added whenever a question came in, categories created ad hoc, navigation built around internal logic rather than merchant mental models. Merchants were opening support tickets for questions that already had answers, because they couldn't find them.",
+        "problem": "A support site is only useful if the person looking for help can navigate it without already knowing the answer. The existing structure reflected how the team thought about the product — not how merchants thought about their problems.",
+        "approach": "I ran a full content audit: every article, every category, every navigation label. I mapped the support tickets coming in against the articles that existed to surface the gaps and the mismatches. Then I used card sorting to understand how merchants grouped information in their own minds. From that research, I restructured the IA around merchant tasks — not product features. Instead of 'Settings > Integrations', the navigation became 'Connect your store' and 'Sync your data.' The language shifted from inside-out to outside-in.",
+        "delivered": "A revised site map, new navigation taxonomy, rewritten category names and article titles, and a content template for all new helpdesk articles — so future content would be added in a way that fit the structure, not broke it.",
+        "impact": "Merchants were able to self-serve answers more effectively. The revamp reduced inbound support volume for topics covered by helpdesk articles and became the model for the Ali Reviews support site rebuild.",
+        "before": "",
+        "after": "",
+        "notion_url": "https://www.notion.so/Information-Architecture-Helpdesk-Website-Revamp-11dc91c6c2d48017a099d73a65c06098"
+      }
+    },
+    {
+      "category": "SaaS · Microcopy · UX Writing",
+      "title": "Error Messages That Don't Panic Users",
+      "description": "Auditing and rewriting the entire error message system for TrueProfit — turning technical failure states into clear, actionable guidance merchants can trust.",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80&auto=format",
+      "tags": ["Error States", "Microcopy", "Tone"],
+      "modal": {
+        "context": "TrueProfit merchants are tracking their store's profit in real time. When something breaks — a sync fails, data doesn't load, a calculation can't complete — they notice immediately. How we write those moments matters enormously: a bad error message turns a minor technical blip into a trust crisis.",
+        "problem": "The existing error messages were written by engineers for engineers. They surfaced technical status codes, used passive voice, and gave no direction. Merchants were left wondering: Is my data wrong? Did I do something wrong? Is the app broken? The errors created more questions than they answered.",
+        "approach": "I audited every error state in the product and categorized them by type: user error, system error, empty state, and connection failure. Each type has a different emotional weight — and needs a different response. A user error needs gentle correction. A system error needs reassurance that it's not the merchant's fault and a clear next step. I developed a writing formula for each error type: What happened → Why it matters → What to do next. Never blame the user. Always give an action. Match the severity of tone to the severity of the problem.",
+        "delivered": "A rewritten error message library covering all error types, plus a writing formula document for future error states. All new features ship with error copy written to the same standard.",
+        "impact": "Error-related support tickets dropped after the rewrite. The error message framework was adopted as a standard — any new feature's error states are now written to the formula before shipping.",
+        "before": "Error 503: Data sync failed.",
+        "after": "We couldn't sync your store data — this is on our end, not yours. We're already on it. Your existing data is safe. Try refreshing in a few minutes.",
+        "notion_url": "https://www.notion.so/Error-messages-11ec91c6c2d4803bb020c4319a1467ea"
+      }
+    },
+    {
+      "category": "SaaS · Design Sprint · UX Writing",
+      "title": "Design Sprint: Import a CSV File",
+      "description": "Inside a 5-day design sprint to ship a CSV import feature — how I shaped the UX writing process from problem framing to final copy, under real time pressure.",
+      "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&q=80&auto=format",
+      "tags": ["Design Sprint", "Feature Writing", "Process"],
+      "modal": {
+        "context": "TrueProfit merchants needed a way to import cost data via CSV — a technically straightforward feature with enormous UX complexity. A CSV import flow involves file formatting rules, validation errors, data mapping decisions, and confirmation states. Each step is a potential point of failure and confusion.",
+        "problem": "The team ran a structured design sprint to go from problem to testable prototype in 5 days. As the UX writer embedded in the sprint, my role was to shape the language at every stage — not just at the end. I was in the room during problem definition, sketching, and prototype building.",
+        "approach": "A CSV import is a high-stakes interaction. Merchants are touching their cost data — if they make a mistake, their profit numbers break. The copy had to do three things simultaneously: make the steps feel simple, surface errors early and clearly, and give merchants enough confidence to commit. I wrote the full flow copy during the sprint: upload prompt, file validation messages, column mapping instructions, error recovery copy, and the final confirmation state. Every piece was tested with real merchants on Day 4.",
+        "delivered": "Full UX copy for the CSV import flow — from the upload CTA to every validation and error state — ready to ship at the end of the sprint. Plus a retrospective on how to embed writing earlier in sprint days.",
+        "impact": "The feature shipped with a copy framework that reduced mapping errors during testing. The sprint process — with a writer embedded from day one — became the team's preferred model for complex feature work.",
+        "before": "",
+        "after": "",
+        "notion_url": "https://www.notion.so/Design-sprint-Import-a-CSV-file-195c91c6c2d4805f8893cdcfb2c208dc"
+      }
+    }
+  ],
+  "more_label": "Also in the portfolio: Custom Costs · Cost of Goods Sold · Modal UX Writing · Custom Review Source",
+  "notion_url": "https://www.notion.so/Linh-Tran-Thuy-UX-Writer-Content-Strategist-11ac91c6c2d4807e89ecc05d289e62df"
+}
