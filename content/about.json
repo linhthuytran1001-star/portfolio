@@ -23,7 +23,11 @@
       "period": "Nov 2023 — Now",
       "role": "UX Writer",
       "company": "FireGroup Technology",
-      "industry": "E-commerce"
+      "industry": "E-commerce · Fintech",
+      "products": [
+        { "name": "Ali Reviews", "desc": "Product review solution", "url": "https://alireviews.io/" },
+        { "name": "TrueProfit", "desc": "Net profit analytics", "url": "https://trueprofit.io/" }
+      ]
     },
     {
       "period": "Apr 2022 — Nov 2023",

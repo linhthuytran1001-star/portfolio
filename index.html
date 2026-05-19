@@ -129,6 +129,11 @@
     .exp-right { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; flex-shrink: 0; }
     .exp-company { font-size: 13px; color: var(--text-secondary); }
     .exp-industry { font-size: 9px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: var(--gold-warm); border: 1px solid var(--gold-muted); padding: 3px 10px; border-radius: 20px; }
+    .exp-products { display: flex; gap: 12px; margin-top: 10px; flex-wrap: wrap; }
+    .exp-product { font-size: 11px; color: var(--text-secondary); display: flex; align-items: center; gap: 5px; }
+    .exp-product a { color: var(--text-secondary); border-bottom: 1px solid var(--border); transition: color 0.2s, border-color 0.2s; }
+    .exp-product a:hover { color: var(--gold-warm); border-color: var(--gold-muted); }
+    .exp-product-dot { width: 3px; height: 3px; border-radius: 50%; background: var(--text-muted); }
     .exp-desc { font-size: 14px; line-height: 1.8; color: var(--text-secondary); }
 
     /* MARQUEE */
@@ -457,17 +462,26 @@
       });
 
       // Experience
-      document.getElementById('experience-list').innerHTML = (d.experience || []).map(e => `
-        <div class="experience-item fade-in">
+      document.getElementById('experience-list').innerHTML = (d.experience || []).map(e => {
+        const productsHtml = (e.products || []).map((p, i) => `
+          ${i > 0 ? '<span class="exp-product-dot"></span>' : ''}
+          <span class="exp-product">
+            <a href="${esc(p.url)}" target="_blank">${esc(p.name)}</a>
+            <span style="color:var(--text-muted)">— ${esc(p.desc)}</span>
+          </span>`).join('');
+        return `
+        <div class="experience-item fade-in" style="align-items:flex-start">
           <div class="exp-left">
             <div class="exp-period">${esc(e.period)}</div>
             <div class="exp-role">${esc(e.role)}</div>
+            ${productsHtml ? `<div class="exp-products">${productsHtml}</div>` : ''}
           </div>
           <div class="exp-right">
             <div class="exp-company">${esc(e.company)}</div>
             <span class="exp-industry">${esc(e.industry)}</span>
           </div>
-        </div>`).join('');
+        </div>`;
+      }).join('');
 
       // Footer
       document.getElementById('footer-copy').textContent =
