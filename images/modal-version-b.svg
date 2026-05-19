@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="400" viewBox="0 0 560 400" font-family="Inter, -apple-system, sans-serif">
+  <!-- Modal background -->
+  <rect width="560" height="400" rx="16" fill="#ffffff"/>
+  <!-- Top close button -->
+  <text x="530" y="30" font-size="18" fill="#999" text-anchor="middle" font-weight="300">×</text>
+
+  <!-- Heading -->
+  <text x="280" y="52" font-size="16" font-weight="800" fill="#1a1a1a" text-anchor="middle">Unlock Super 14 Days Free</text>
+  <text x="280" y="72" font-size="16" font-weight="800" fill="#1a1a1a" text-anchor="middle">Then Enjoy Your First Month for Just $1!</text>
+  <text x="280" y="96" font-size="13" fill="#888" text-anchor="middle">Limited-time offer. Upgrade now and save.</text>
+
+  <!-- Divider -->
+  <line x1="40" y1="112" x2="520" y2="112" stroke="#f0f0f0" stroke-width="1"/>
+
+  <!-- Free Plan card (de-emphasised) -->
+  <rect x="40" y="126" width="220" height="200" rx="10" fill="#fafafa" stroke="#e8e8e8" stroke-width="1"/>
+  <text x="150" y="158" font-size="13" fill="#aaa" text-anchor="middle" font-weight="400">Free Plan</text>
+  <text x="150" y="190" font-size="30" font-weight="700" fill="#bbb" text-anchor="middle">$0</text>
+  <text x="150" y="208" font-size="11" fill="#ccc" text-anchor="middle">/ month</text>
+
+  <text x="62" y="235" font-size="12" fill="#bbb">✓  Basic review requests</text>
+  <text x="62" y="255" font-size="12" fill="#bbb">✓  Import reviews</text>
+  <text x="62" y="275" font-size="12" fill="#ccc">✗  AI features</text>
+  <text x="62" y="295" font-size="12" fill="#ccc">✗  Priority support</text>
+
+  <!-- Super Plan card (dominant) -->
+  <rect x="296" y="116" width="224" height="220" rx="10" fill="#fff4e0" stroke="#E8A020" stroke-width="2.5"/>
+  <!-- Hot Deal badge -->
+  <rect x="346" y="106" width="120" height="22" rx="11" fill="#E8A020"/>
+  <text x="406" y="121" font-size="10" font-weight="700" fill="#fff" text-anchor="middle">🔥 HOT DEAL</text>
+
+  <text x="408" y="158" font-size="13" fill="#E8A020" text-anchor="middle" font-weight="700">Super Plan</text>
+  <text x="408" y="190" font-size="30" font-weight="800" fill="#1a1a1a" text-anchor="middle">$1</text>
+  <text x="408" y="208" font-size="11" fill="#888" text-anchor="middle">first month · then $14.95/mo</text>
+
+  <text x="316" y="235" font-size="12" fill="#444">✓  Everything in Free</text>
+  <text x="316" y="255" font-size="12" fill="#444">✓  AI Review Summary</text>
+  <text x="316" y="275" font-size="12" fill="#444">✓  Smart highlights</text>
+  <text x="316" y="295" font-size="12" fill="#444">✓  Priority support</text>
+
+  <!-- CTAs -->
+  <rect x="40" y="342" width="220" height="40" rx="8" fill="#f5f5f5"/>
+  <text x="150" y="367" font-size="12" fill="#999" text-anchor="middle">Maybe later</text>
+
+  <rect x="296" y="342" width="224" height="40" rx="8" fill="#E8A020"/>
+  <text x="408" y="367" font-size="13" fill="#fff" text-anchor="middle" font-weight="700">Grab the deal</text>
+</svg>
