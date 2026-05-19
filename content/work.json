@@ -1,25 +1,42 @@
 {
   "featured": {
-    "badge": "Featured",
-    "category": "SaaS · Shopify · Brand Voice",
-    "title": "TrueProfit: Building a Tone & Voice System",
-    "excerpt": "TrueProfit speaks to stressed Shopify merchants who need clarity, not more noise. I defined the brand's entire voice framework — principles, do's & don'ts, and a pattern library that keeps every screen feeling like the same person wrote it.",
-    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80&auto=format",
+    "badge": "A/B Test · Real Data",
+    "category": "Ali Reviews · Shopify · UX Writing · Conversion",
+    "title": "Modal $1: When Transparency Beats Marketing",
+    "excerpt": "We ran an A/B test on Ali Reviews' $1 pricing modal — a transparent approach vs a marketing-heavy one. The data was clear: hiding the free plan doubled uninstall rates. Transparency won, and so did our users.",
+    "image": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&q=80&auto=format",
     "meta": [
-      { "label": "Company",  "value": "FireGroup Technology" },
-      { "label": "Type",     "value": "Tone & Voice" },
-      { "label": "Scope",    "value": "Full product" }
+      { "label": "Product",  "value": "Ali Reviews" },
+      { "label": "Type",     "value": "A/B Test · Pricing Copy" },
+      { "label": "Result",   "value": "−18pp uninstall rate" }
     ],
     "modal": {
-      "context": "TrueProfit is a profit analytics app for Shopify merchants — a tool people open when they need to understand exactly where their money is going. The users are business owners under pressure: they're stressed, they're fast, and they don't have time to decode jargon or be spoken to like a product manual. As the UX Writer at FireGroup Technology, I was responsible for defining how TrueProfit speaks across the entire product — every label, tooltip, empty state, confirmation message, and error.",
-      "problem": "The product had grown fast. Different features had been written at different times, by different people. The result was a product that didn't sound like itself. Some screens were warm and conversational. Others were cold and technical. Merchants felt like they were moving between different apps.",
-      "approach": "I started with a content audit — reading every UI string in the product and tagging it by tone, formality, and clarity. Then I interviewed the team: What do we believe? Who are we writing for? What should a merchant feel after reading this screen? From that research, I defined TrueProfit's voice as clear, direct, and quietly confident — like a sharp financial advisor who gets to the point and never makes you feel small for asking. I documented this across four dimensions: word choice, sentence structure, tone by context (success / warning / error / empty states), and a do/don't pattern library.",
-      "delivered": "A living Tone & Voice guideline document used by the entire product team — covering principles, personality traits, writing rules, and annotated before/after examples for the most common UI patterns. New features are now written against this system from day one.",
-      "impact": "The product now reads as a single, coherent voice from the first screen to the last. The tone guide became the onboarding document for any new team member touching copy — designers, PMs, and engineers included.",
-      "notion_url": "https://www.notion.so/TrueProfit-tone-and-voice-279c91c6c2d48063ad52de23ff718338"
+      "context": "Ali Reviews wanted more users to continue with a $1 first-month offer when they selected the free plan. The goal: convert free users into paid users by letting them try premium features at very low risk. My role as UX Writer was to write both versions of the pricing modal and shape the copy strategy for the experiment.\n\nTeam: Product Manager, UX Designer, Engineer, Quality Control. Tools: Figma, Atlassian.",
+      "problem": "Same-day uninstalls were already a major problem. While the business wanted to increase conversions, we couldn't afford to make users feel tricked. The challenge: write copy that encourages the $1 upgrade without eroding trust — because a user who uninstalls the same day is worse than one who stays on the free plan.",
+      "approach": "We designed two versions of the pricing modal and ran an A/B test with new users between April 1–14.\n\nVersion A (Transparent): Clearly showed both Free Plan ($0) and AI Features Plan ($1/first month, then $14.95/month). Users could compare and choose freely. CTAs: \"Keep Basic plan\" vs \"Try AI features for free.\" Hypothesis: transparency builds trust and reduces uninstalls.\n\nVersion B (Marketing-Heavy): Free plan was less visible. Stronger promotional headline — \"Unlock Super 14 Days Free, Then Enjoy Your First Month for Just $1!\" CTAs: \"Maybe later\" vs \"Grab the deal.\" Hypothesis: hiding the free plan would push users toward the paid tier by default.",
+      "delivered": "Two fully written and designed pricing modal variants, a copy rationale document for each version, and a post-test analysis with recommendations for future pricing copy across both Ali Reviews and TrueProfit.",
+      "impact": "Version A: 300 users chose the Super Plan. Version B: 251 users chose the Super Plan.\n\nBut the real story was uninstalls: Version A had ~18% same-day uninstalls. Version B had ~36% — nearly double. Users who couldn't easily find the free plan felt trapped and left immediately.\n\nWe kept Version A. Key takeaway: when it comes to pricing copy, transparency isn't just the ethical choice — it's the better business decision. Users who feel respected stay longer and pay eventually.",
+      "notion_url": "https://www.notion.so/Modal-1-250c91c6c2d480389fc5e9b329a3d9bb"
     }
   },
   "cases": [
+    {
+      "category": "SaaS · Shopify · Brand Voice",
+      "title": "TrueProfit: Tone & Voice System",
+      "description": "Defining how TrueProfit speaks across the entire product — voice principles, do's & don'ts, and a pattern library that keeps every screen sounding like the same person wrote it.",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80&auto=format",
+      "tags": ["Tone & Voice", "Content System", "Brand"],
+      "modal": {
+        "context": "TrueProfit is a profit analytics app for Shopify merchants — a tool people open when they need to understand exactly where their money is going. The users are business owners under pressure: stressed, fast, with no time for jargon or product-manual speak. As UX Writer, I was responsible for defining how TrueProfit speaks across the entire product — every label, tooltip, empty state, confirmation, and error.",
+        "problem": "The product had grown fast. Different features had been written at different times by different people. The result: a product that didn't sound like itself. Some screens were warm and conversational. Others were cold and technical. Merchants felt like they were moving between different apps.",
+        "approach": "I started with a content audit — reading every UI string and tagging it by tone, formality, and clarity. Then I interviewed the team: What do we believe? Who are we writing for? What should a merchant feel after reading this screen?\n\nFrom that, I defined TrueProfit's voice as clear, direct, and quietly confident — like a sharp financial advisor who gets to the point and never makes you feel small for asking. Documented across four dimensions: word choice, sentence structure, tone by context (success / warning / error / empty states), and a do/don't pattern library.",
+        "delivered": "A living Tone & Voice guideline document for the entire product team — covering principles, personality traits, writing rules, and annotated before/after examples. New features are now written against this system from day one.",
+        "impact": "The product now reads as a single coherent voice from first screen to last. The tone guide became the onboarding document for any new team member touching copy — designers, PMs, and engineers included.",
+        "before": "",
+        "after": "",
+        "notion_url": "https://www.notion.so/TrueProfit-tone-and-voice-279c91c6c2d48063ad52de23ff718338"
+      }
+    },
     {
       "category": "SaaS · IA · Content Strategy",
       "title": "Helpdesk Website Revamp",

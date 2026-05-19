@@ -413,6 +413,10 @@
     function esc(str) {
       return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
     }
+    // Split on double newlines and wrap each chunk in a <p>
+    function paras(str, cls = 'modal-text') {
+      return String(str).split(/\n\n+/).map(p => `<p class="${cls}">${esc(p.trim())}</p>`).join('');
+    }
 
     // ─── RENDER: ABOUT ────────────────────────────────────────────────
     function renderAbout(d) {
@@ -513,7 +517,7 @@
 
       const delivered = modal.delivered ? `
         <h3 class="modal-section-title">What I Delivered</h3>
-        <p class="modal-text">${esc(modal.delivered)}</p>` : '';
+        ${paras(modal.delivered)}` : '';
 
       return `
         <div class="modal-overlay" id="${id}" onclick="closeModalOnOverlay(event,'${id}')">
@@ -528,16 +532,16 @@
             <div class="modal-body">
               <img src="${esc(image)}" alt="${esc(title)}" class="modal-image" />
               <h3 class="modal-section-title">Context</h3>
-              <p class="modal-text">${esc(modal.context)}</p>
+              ${paras(modal.context)}
               <h3 class="modal-section-title">The Problem</h3>
-              <p class="modal-text">${esc(modal.problem)}</p>
+              ${paras(modal.problem)}
               <h3 class="modal-section-title">My Approach</h3>
-              <p class="modal-text">${esc(modal.approach)}</p>
+              ${paras(modal.approach)}
               ${beforeAfter}
               ${delivered}
               <div class="modal-outcome">
                 <div class="modal-outcome-label">Impact</div>
-                <p class="modal-outcome-text">${esc(modal.impact)}</p>
+                ${paras(modal.impact, 'modal-outcome-text')}
               </div>
               ${notionLink}
             </div>
