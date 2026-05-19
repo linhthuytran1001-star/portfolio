@@ -121,11 +121,14 @@
     .about-content p strong { color: var(--text-primary); font-weight: 400; }
     .about-content h3 { font-size: 22px; font-weight: 300; color: var(--text-primary); margin: 48px 0 16px; }
     .experience-list { margin-top: 40px; }
-    .experience-item { display: grid; grid-template-columns: 120px 1fr; gap: 32px; padding: 32px 0; border-top: 1px solid var(--border-subtle); }
+    .experience-item { display: flex; align-items: center; justify-content: space-between; padding: 20px 0; border-top: 1px solid var(--border-subtle); gap: 24px; }
     .experience-item:last-child { border-bottom: 1px solid var(--border-subtle); }
-    .exp-period { font-size: 11px; font-weight: 500; letter-spacing: 0.08em; color: var(--text-muted); padding-top: 4px; }
-    .exp-role { font-family: var(--font-serif); font-size: 20px; font-weight: 400; color: var(--text-primary); margin-bottom: 4px; }
-    .exp-company { font-size: 12px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold-warm); margin-bottom: 12px; }
+    .exp-left { display: flex; flex-direction: column; gap: 4px; }
+    .exp-period { font-size: 11px; font-weight: 500; letter-spacing: 0.08em; color: var(--text-muted); }
+    .exp-role { font-family: var(--font-serif); font-size: 20px; font-weight: 400; color: var(--text-primary); }
+    .exp-right { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; flex-shrink: 0; }
+    .exp-company { font-size: 13px; color: var(--text-secondary); }
+    .exp-industry { font-size: 9px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: var(--gold-warm); border: 1px solid var(--gold-muted); padding: 3px 10px; border-radius: 20px; }
     .exp-desc { font-size: 14px; line-height: 1.8; color: var(--text-secondary); }
 
     /* MARQUEE */
@@ -456,11 +459,13 @@
       // Experience
       document.getElementById('experience-list').innerHTML = (d.experience || []).map(e => `
         <div class="experience-item fade-in">
-          <div class="exp-period">${esc(e.period)}</div>
-          <div>
+          <div class="exp-left">
+            <div class="exp-period">${esc(e.period)}</div>
             <div class="exp-role">${esc(e.role)}</div>
+          </div>
+          <div class="exp-right">
             <div class="exp-company">${esc(e.company)}</div>
-            <p class="exp-desc">${e.description}</p>
+            <span class="exp-industry">${esc(e.industry)}</span>
           </div>
         </div>`).join('');
 

@@ -23,19 +23,19 @@
       "period": "Nov 2023 — Now",
       "role": "UX Writer",
       "company": "FireGroup Technology",
-      "description": "Writing product copy across two Shopify apps — TrueProfit (profit analytics) and Ali Reviews (review management). Work covers microcopy, feature UX writing, error messages, tone & voice guidelines, information architecture, and design sprint facilitation across the full product lifecycle."
+      "industry": "E-commerce"
     },
     {
       "period": "Apr 2022 — Nov 2023",
       "role": "Web Content Writer",
-      "company": "HelloBacsi · Ho Chi Minh City",
-      "description": "Content strategy and writing for HelloBacsi, Vietnam's largest health information platform. Created medically accurate, plain-language content that made healthcare knowledge accessible to millions of Vietnamese readers."
+      "company": "HelloBacsi",
+      "industry": "Health Tech"
     },
     {
       "period": "Mar 2021 — Oct 2021",
       "role": "Content Marketing",
-      "company": "Grace Skincare Clinic · Ho Chi Minh City",
-      "description": "Developed content strategy and copywriting for digital channels at a skincare clinic — the foundation of my understanding of audience-first writing and the relationship between content and customer trust."
+      "company": "Grace Skincare Clinic",
+      "industry": "Skincare"
     }
   ],
   "skills": ["Figma", "Notion", "Confluence", "Jira", "ContentSquare", "Hotjar", "Google Analytics", "Miro", "ChatGPT", "Grammarly"]
