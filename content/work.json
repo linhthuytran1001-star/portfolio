@@ -16,6 +16,10 @@
       "approach": "We designed two versions of the pricing modal and ran an A/B test with new users between April 1–14.\n\nVersion A (Transparent): Clearly showed both Free Plan ($0) and AI Features Plan ($1/first month, then $14.95/month). Users could compare and choose freely. CTAs: \"Keep Basic plan\" vs \"Try AI features for free.\" Hypothesis: transparency builds trust and reduces uninstalls.\n\nVersion B (Marketing-Heavy): Free plan was less visible. Stronger promotional headline — \"Unlock Super 14 Days Free, Then Enjoy Your First Month for Just $1!\" CTAs: \"Maybe later\" vs \"Grab the deal.\" Hypothesis: hiding the free plan would push users toward the paid tier by default.",
       "delivered": "Two fully written and designed pricing modal variants, a copy rationale document for each version, and a post-test analysis with recommendations for future pricing copy across both Ali Reviews and TrueProfit.",
       "impact": "Version A: 300 users chose the Super Plan. Version B: 251 users chose the Super Plan.\n\nBut the real story was uninstalls: Version A had ~18% same-day uninstalls. Version B had ~36% — nearly double. Users who couldn't easily find the free plan felt trapped and left immediately.\n\nWe kept Version A. Key takeaway: when it comes to pricing copy, transparency isn't just the ethical choice — it's the better business decision. Users who feel respected stay longer and pay eventually.",
+      "ab_images": [
+        { "src": "/images/modal-version-a.png", "label": "Version A — Transparent" },
+        { "src": "/images/modal-version-b.png", "label": "Version B — Marketing-Heavy" }
+      ],
       "notion_url": "https://www.notion.so/Modal-1-250c91c6c2d480389fc5e9b329a3d9bb"
     }
   },

@@ -243,6 +243,11 @@
     .copy-label { font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; margin-bottom: 6px; display: block; }
     .copy-label.before { color: var(--text-muted); }
     .copy-label.after  { color: var(--gold-warm); }
+    .modal-ab-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 24px 0; }
+    .modal-ab-item { display: flex; flex-direction: column; gap: 10px; }
+    .modal-ab-label { font-size: 9px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: var(--gold-warm); }
+    .modal-ab-item img { width: 100%; border-radius: 8px; border: 1px solid var(--border); display: block; }
+    @media (max-width: 600px) { .modal-ab-grid { grid-template-columns: 1fr; } }
     .modal-outcome { background: var(--gold-whisper); border: 1px solid var(--gold-muted); border-radius: var(--radius-md); padding: 20px 24px; margin-top: 24px; }
     .modal-outcome-label { font-size: 9px; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold-warm); margin-bottom: 8px; }
     .modal-outcome-text { font-size: 14px; line-height: 1.75; color: var(--text-primary); }
@@ -519,6 +524,15 @@
         <h3 class="modal-section-title">What I Delivered</h3>
         ${paras(modal.delivered)}` : '';
 
+      const abImages = (modal.ab_images && modal.ab_images.length) ? `
+        <div class="modal-ab-grid">
+          ${modal.ab_images.map(img => `
+          <div class="modal-ab-item">
+            <span class="modal-ab-label">${esc(img.label)}</span>
+            <img src="${esc(img.src)}" alt="${esc(img.label)}" />
+          </div>`).join('')}
+        </div>` : '';
+
       return `
         <div class="modal-overlay" id="${id}" onclick="closeModalOnOverlay(event,'${id}')">
           <div class="modal">
@@ -537,6 +551,7 @@
               ${paras(modal.problem)}
               <h3 class="modal-section-title">My Approach</h3>
               ${paras(modal.approach)}
+              ${abImages}
               ${beforeAfter}
               ${delivered}
               <div class="modal-outcome">
