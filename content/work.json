@@ -42,7 +42,12 @@
         "impact": "The product now reads as a single coherent voice from first screen to last. The tone guide became the onboarding reference for any new team member touching copy — designers, PMs, and engineers included.",
         "before": "",
         "after": "",
-        "notion_url": "https://www.notion.so/TrueProfit-tone-and-voice-279c91c6c2d48063ad52de23ff718338"
+        "notion_url": "https://www.notion.so/TrueProfit-tone-and-voice-279c91c6c2d48063ad52de23ff718338",
+        "references": [
+          { "label": "Reforge word game template (Miro)", "url": "https://miro.com/app/board/uXjVOwBuXjw=/" },
+          { "label": "Research synthesis (Miro)", "url": "https://miro.com/app/board/uXjVO1agywI=/" },
+          { "label": "Final Tone & Voice — Figma", "url": "https://www.figma.com/design/BztqxrRdDWMQ5dSg9LdWft/Tone-and-voice-Brand-TrueProfit?node-id=46-26&p=f" }
+        ]
       }
     },
     {
