@@ -1,49 +1,64 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="400" viewBox="0 0 560 400" font-family="Inter, -apple-system, sans-serif">
-  <!-- Modal background -->
-  <rect width="560" height="400" rx="16" fill="#ffffff"/>
-  <!-- Top close button -->
-  <text x="530" y="30" font-size="18" fill="#999" text-anchor="middle" font-weight="300">×</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="600" viewBox="0 0 720 600" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif">
+  <rect width="720" height="600" rx="16" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- Top label -->
+  <text x="28" y="36" font-size="13" font-weight="600" fill="#1a1a1a">Special offer</text>
+
+  <!-- Gift icon -->
+  <text x="360" y="74" font-size="30" text-anchor="middle">🎁</text>
 
   <!-- Heading -->
-  <text x="280" y="56" font-size="17" font-weight="700" fill="#1a1a1a" text-anchor="middle">Get 14 days free, then your first month</text>
-  <text x="280" y="76" font-size="17" font-weight="700" fill="#1a1a1a" text-anchor="middle">for just $1</text>
-  <text x="280" y="98" font-size="13" fill="#666" text-anchor="middle">Try all premium features risk-free. Cancel anytime.</text>
+  <text x="360" y="108" font-size="21" font-weight="800" fill="#111827" text-anchor="middle">Get 14 days free, then your first month for just $1</text>
+
+  <!-- Subtitle -->
+  <text x="360" y="130" font-size="13" fill="#6b7280" text-anchor="middle">Unlock all advanced features, including unlimited review imports.</text>
 
   <!-- Divider -->
-  <line x1="40" y1="114" x2="520" y2="114" stroke="#f0f0f0" stroke-width="1"/>
+  <line x1="28" y1="150" x2="692" y2="150" stroke="#e5e7eb" stroke-width="1"/>
 
-  <!-- Basic Plan card -->
-  <rect x="40" y="128" width="220" height="200" rx="10" fill="#fafafa" stroke="#e8e8e8" stroke-width="1.5"/>
-  <text x="150" y="160" font-size="13" fill="#888" text-anchor="middle" font-weight="500">Basic Plan</text>
-  <text x="150" y="192" font-size="30" font-weight="800" fill="#1a1a1a" text-anchor="middle">$0</text>
-  <text x="150" y="210" font-size="11" fill="#aaa" text-anchor="middle">/ month</text>
+  <!-- LEFT CARD -->
+  <rect x="28" y="162" width="326" height="354" rx="12" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1.5"/>
+  <text x="48" y="194" font-size="15" font-weight="700" fill="#111827">Basic features</text>
+  <rect x="48" y="204" width="286" height="50" rx="8" fill="#f3f4f6"/>
+  <text x="64" y="237" font-size="13" fill="#374151">$</text>
+  <text x="75" y="241" font-size="30" font-weight="800" fill="#111827">0</text>
+  <text x="115" y="237" font-size="13" fill="#6b7280">/Month</text>
 
-  <!-- Basic features -->
-  <text x="62" y="238" font-size="12" fill="#555">✓  Unlimited review requests</text>
-  <text x="62" y="258" font-size="12" fill="#555">✓  Import reviews</text>
-  <text x="62" y="278" font-size="12" fill="#555">✓  Basic display widgets</text>
-  <text x="62" y="298" font-size="12" fill="#aaa">✗  AI features</text>
+  <text x="48" y="278" font-size="13" font-weight="700" fill="#111827">Some basic features:</text>
+  <circle cx="58" cy="300" r="4" fill="#f97316"/><text x="70" y="304" font-size="13" fill="#374151">Total reviews/product: <tspan font-weight="700">5</tspan></text>
+  <circle cx="58" cy="326" r="4" fill="#f97316"/><text x="70" y="330" font-size="13" fill="#374151">Basic features</text>
+  <circle cx="58" cy="352" r="4" fill="#f97316"/><text x="70" y="356" font-size="13" fill="#374151">Basic support</text>
+  <circle cx="58" cy="378" r="4" fill="#f97316"/><text x="70" y="382" font-size="13" fill="#374151">Show only text reviews</text>
+  <circle cx="58" cy="404" r="4" fill="#f97316"/><text x="70" y="408" font-size="13" fill="#374151">Import reviews from AliExpress</text>
 
-  <!-- AI Features card (highlighted) -->
-  <rect x="298" y="118" width="222" height="220" rx="10" fill="#fff8ec" stroke="#E8A020" stroke-width="2"/>
-  <!-- Best Value badge -->
-  <rect x="358" y="108" width="102" height="22" rx="11" fill="#E8A020"/>
-  <text x="409" y="123" font-size="10" font-weight="700" fill="#fff" text-anchor="middle">BEST VALUE</text>
+  <!-- RIGHT CARD -->
+  <rect x="366" y="162" width="326" height="354" rx="12" fill="#f9fafb" stroke="#e5e7eb" stroke-width="1.5"/>
+  <text x="386" y="194" font-size="15" font-weight="700" fill="#111827">AI features</text>
+  <rect x="478" y="178" width="88" height="22" rx="11" fill="#dbeafe"/>
+  <text x="522" y="193" font-size="11" font-weight="600" fill="#1d4ed8" text-anchor="middle">Limited offer!</text>
 
-  <text x="409" y="160" font-size="13" fill="#E8A020" text-anchor="middle" font-weight="600">AI Features Plan</text>
-  <text x="409" y="192" font-size="30" font-weight="800" fill="#1a1a1a" text-anchor="middle">$1</text>
-  <text x="409" y="210" font-size="11" fill="#888" text-anchor="middle">first month · then $14.95/mo</text>
+  <rect x="386" y="204" width="286" height="66" rx="8" fill="#f3f4f6"/>
+  <text x="402" y="237" font-size="13" fill="#374151">$</text>
+  <text x="413" y="241" font-size="30" font-weight="800" fill="#111827">1</text>
+  <text x="453" y="228" font-size="12" fill="#9ca3af" text-decoration="line-through">$14.95</text>
+  <text x="453" y="244" font-size="12" fill="#6b7280">for the first month</text>
+  <text x="402" y="262" font-size="12" fill="#374151">Then <tspan font-weight="700">$14.95/month</tspan> after</text>
 
-  <!-- AI features -->
-  <text x="318" y="238" font-size="12" fill="#555">✓  Everything in Basic</text>
-  <text x="318" y="258" font-size="12" fill="#555">✓  AI Review Summary</text>
-  <text x="318" y="278" font-size="12" fill="#555">✓  Smart review highlights</text>
-  <text x="318" y="298" font-size="12" fill="#555">✓  Priority support</text>
+  <text x="386" y="298" font-size="13" font-weight="700" fill="#111827">Key advanced features:</text>
+  <circle cx="396" cy="318" r="4" fill="#22c55e"/><text x="408" y="322" font-size="13" fill="#374151">Total reviews/product: <tspan font-weight="700">Unlimited</tspan></text>
+  <circle cx="396" cy="344" r="4" fill="#22c55e"/><text x="408" y="348" font-size="13" fill="#374151">Access all exclusive features</text>
+  <circle cx="396" cy="370" r="4" fill="#22c55e"/><text x="408" y="374" font-size="13" fill="#374151">Priority support</text>
+  <circle cx="396" cy="396" r="4" fill="#22c55e"/><text x="408" y="400" font-size="13" fill="#374151">Show photo and video reviews</text>
+  <circle cx="396" cy="422" r="4" fill="#22c55e"/><text x="408" y="426" font-size="13" fill="#374151">Import reviews from AliExpress, Amazon...</text>
+  <circle cx="396" cy="448" r="4" fill="#22c55e"/><text x="408" y="452" font-size="13" fill="#374151">Import reviews from a CSV file</text>
+
+  <!-- Divider -->
+  <line x1="28" y1="532" x2="692" y2="532" stroke="#e5e7eb" stroke-width="1"/>
 
   <!-- CTAs -->
-  <rect x="40" y="344" width="220" height="40" rx="8" fill="#f0f0f0"/>
-  <text x="150" y="369" font-size="13" fill="#555" text-anchor="middle" font-weight="500">Keep Basic plan</text>
+  <rect x="424" y="548" width="158" height="38" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+  <text x="503" y="572" font-size="13" font-weight="500" fill="#374151" text-anchor="middle">Keep Basic plan</text>
 
-  <rect x="298" y="344" width="222" height="40" rx="8" fill="#E8A020"/>
-  <text x="409" y="369" font-size="13" fill="#fff" text-anchor="middle" font-weight="600">Try AI features for free</text>
+  <rect x="594" y="548" width="98" height="38" rx="8" fill="#111827"/>
+  <text x="643" y="572" font-size="12" font-weight="600" fill="#ffffff" text-anchor="middle">Try AI features for free</text>
 </svg>
