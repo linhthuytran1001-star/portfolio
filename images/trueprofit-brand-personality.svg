@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400" viewBox="0 0 900 400" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif">
+  <rect width="900" height="400" rx="12" fill="#f8f8f8" stroke="#e0e0e0" stroke-width="1"/>
+
+  <!-- Column headers -->
+  <!-- Who We Are -->
+  <rect x="20" y="16" width="270" height="368" rx="8" fill="#f0f0ee"/>
+  <text x="30" y="40" font-size="11" font-weight="700" fill="#333">📌  Who We Are</text>
+
+  <!-- Who We'd Like to Be -->
+  <rect x="315" y="16" width="270" height="368" rx="8" fill="#f0f0ee"/>
+  <text x="325" y="40" font-size="11" font-weight="700" fill="#333">😊  Who We'd Like to Be</text>
+
+  <!-- Who We're Not -->
+  <rect x="610" y="16" width="270" height="368" rx="8" fill="#f0f0ee"/>
+  <text x="620" y="40" font-size="11" font-weight="700" fill="#333">⚡  Who We're Not</text>
+
+  <!-- WHO WE ARE stickies (yellow) -->
+  <rect x="30" y="52" width="108" height="36" rx="4" fill="#f5e87a"/><text x="84" y="74" font-size="10" fill="#333" text-anchor="middle">knowledgeable +</text><text x="84" y="84" font-size="10" fill="#333" text-anchor="middle">experienced</text>
+  <rect x="150" y="52" width="90" height="36" rx="4" fill="#f5e87a"/><text x="195" y="74" font-size="10" fill="#333" text-anchor="middle">Candid</text>
+  <rect x="30" y="100" width="90" height="32" rx="4" fill="#f5e87a"/><text x="75" y="120" font-size="10" fill="#333" text-anchor="middle">Casual</text>
+  <rect x="132" y="100" width="90" height="32" rx="4" fill="#f5e87a"/><text x="177" y="120" font-size="10" fill="#333" text-anchor="middle">practical</text>
+  <rect x="30" y="144" width="90" height="32" rx="4" fill="#f5e87a"/><text x="75" y="164" font-size="10" fill="#333" text-anchor="middle">trustworthy</text>
+  <rect x="132" y="144" width="90" height="32" rx="4" fill="#f5e87a"/><text x="177" y="164" font-size="10" fill="#333" text-anchor="middle">professional</text>
+  <rect x="30" y="188" width="90" height="32" rx="4" fill="#f5e87a"/><text x="75" y="208" font-size="10" fill="#333" text-anchor="middle">helpful</text>
+  <rect x="132" y="188" width="90" height="32" rx="4" fill="#f5e87a"/><text x="177" y="208" font-size="10" fill="#333" text-anchor="middle">friendly</text>
+
+  <!-- WHO WE'D LIKE TO BE stickies (mixed) -->
+  <rect x="325" y="52" width="90" height="32" rx="4" fill="#f5e87a"/><text x="370" y="72" font-size="10" fill="#333" text-anchor="middle">Eccentric</text>
+  <rect x="425" y="52" width="90" height="32" rx="4" fill="#f5e87a"/><text x="470" y="72" font-size="10" fill="#333" text-anchor="middle">Exclusive</text>
+  <rect x="525" y="52" width="60" height="32" rx="4" fill="#b3d4f5"/><text x="555" y="72" font-size="10" fill="#333" text-anchor="middle">Neat</text>
+  <rect x="325" y="96" width="90" height="32" rx="4" fill="#b5d5a0"/><text x="370" y="116" font-size="10" fill="#333" text-anchor="middle">passionate</text>
+  <rect x="425" y="96" width="90" height="32" rx="4" fill="#f5e87a"/><text x="470" y="116" font-size="10" fill="#333" text-anchor="middle">Responsive</text>
+  <rect x="520" y="96" width="60" height="32" rx="4" fill="#b3d4f5"/><text x="550" y="116" font-size="10" fill="#333" text-anchor="middle">Pioneer</text>
+  <rect x="325" y="140" width="90" height="32" rx="4" fill="#f5e87a"/><text x="370" y="160" font-size="10" fill="#333" text-anchor="middle">authentic</text>
+  <rect x="425" y="140" width="90" height="32" rx="4" fill="#b5d5a0"/><text x="470" y="160" font-size="10" fill="#333" text-anchor="middle">caring</text>
+  <rect x="325" y="184" width="60" height="32" rx="4" fill="#f5e87a"/><text x="355" y="204" font-size="10" fill="#333" text-anchor="middle">Feisty</text>
+  <rect x="395" y="184" width="60" height="32" rx="4" fill="#b5d5a0"/><text x="425" y="204" font-size="10" fill="#333" text-anchor="middle">smart</text>
+  <rect x="325" y="228" width="90" height="32" rx="4" fill="#b5d5a0"/><text x="370" y="248" font-size="10" fill="#333" text-anchor="middle">professional</text>
+  <rect x="425" y="228" width="90" height="32" rx="4" fill="#b5d5a0"/><text x="470" y="248" font-size="10" fill="#333" text-anchor="middle">trustworthy</text>
+  <rect x="325" y="272" width="70" height="32" rx="4" fill="#b3d4f5"/><text x="360" y="292" font-size="10" fill="#333" text-anchor="middle">casual</text>
+  <rect x="405" y="272" width="70" height="32" rx="4" fill="#b3d4f5"/><text x="440" y="292" font-size="10" fill="#333" text-anchor="middle">friendly</text>
+  <rect x="325" y="316" width="90" height="32" rx="4" fill="#f5e87a"/><text x="370" y="336" font-size="10" fill="#333" text-anchor="middle">Candid (unfiltered)</text>
+  <rect x="425" y="316" width="90" height="32" rx="4" fill="#f5e87a"/><text x="470" y="336" font-size="10" fill="#333" text-anchor="middle">Polished</text>
+  <rect x="520" y="316" width="90" height="32" rx="4" fill="#b5d5a0"/><text x="565" y="336" font-size="10" fill="#333" text-anchor="middle">Knowledgeable</text>
+
+  <!-- WHO WE'RE NOT stickies (orange/salmon) -->
+  <rect x="620" y="52" width="70" height="32" rx="4" fill="#f5e87a"/><text x="655" y="72" font-size="10" fill="#333" text-anchor="middle">Sweet</text>
+  <rect x="700" y="52" width="70" height="32" rx="4" fill="#f5e87a"/><text x="735" y="72" font-size="10" fill="#333" text-anchor="middle">Eccentric</text>
+  <rect x="620" y="96" width="75" height="32" rx="4" fill="#f5c5a0"/><text x="658" y="116" font-size="10" fill="#333" text-anchor="middle">Old-fashioned</text>
+  <rect x="705" y="96" width="55" height="32" rx="4" fill="#f5e87a"/><text x="733" y="116" font-size="10" fill="#333" text-anchor="middle">sexy</text>
+  <rect x="765" y="96" width="90" height="32" rx="4" fill="#f5e87a"/><text x="810" y="116" font-size="10" fill="#333" text-anchor="middle">Conservative</text>
+  <rect x="620" y="140" width="55" height="32" rx="4" fill="#f5e87a"/><text x="648" y="160" font-size="10" fill="#333" text-anchor="middle">Fishy</text>
+  <rect x="685" y="140" width="75" height="32" rx="4" fill="#f5e87a"/><text x="723" y="160" font-size="10" fill="#333" text-anchor="middle">Sarcastic</text>
+  <rect x="770" y="140" width="55" height="32" rx="4" fill="#f5e87a"/><text x="798" y="160" font-size="10" fill="#333" text-anchor="middle">Vague</text>
+  <rect x="620" y="184" width="75" height="32" rx="4" fill="#f5e87a"/><text x="658" y="204" font-size="10" fill="#333" text-anchor="middle">luxurious</text>
+  <rect x="705" y="184" width="80" height="32" rx="4" fill="#f5e87a"/><text x="745" y="204" font-size="10" fill="#333" text-anchor="middle">Mysterious</text>
+  <rect x="795" y="184" width="55" height="32" rx="4" fill="#f5e87a"/><text x="823" y="204" font-size="10" fill="#333" text-anchor="middle">Retro</text>
+  <rect x="620" y="228" width="115" height="44" rx="4" fill="#f5c5a0"/><text x="678" y="246" font-size="10" fill="#333" text-anchor="middle">Try hard to be</text><text x="678" y="258" font-size="10" fill="#333" text-anchor="middle">smart (know it all)</text>
+  <rect x="745" y="228" width="70" height="44" rx="4" fill="#f5c5a0"/><text x="780" y="254" font-size="10" fill="#333" text-anchor="middle">Formal</text>
+</svg>
